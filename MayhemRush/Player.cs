@@ -23,6 +23,7 @@ namespace MayhemRush
         public void LoadContent(ContentManager content)
         {
             texture = content.Load<Texture2D>("playerTexture");
+            position = new Vector2(850, 550);
         }
 
         public void HandleInput()
@@ -30,11 +31,11 @@ namespace MayhemRush
             KeyboardState keyboardState = Keyboard.GetState();
 
             // Horizontal movement
-            if (keyboardState.IsKeyDown(Keys.Left))
+            if (keyboardState.IsKeyDown(Keys.A))
             {
                 velocity.X = -Speed;
             }
-            else if (keyboardState.IsKeyDown(Keys.Right))
+            else if (keyboardState.IsKeyDown(Keys.D))
             {
                 velocity.X = Speed;
             }
@@ -46,9 +47,6 @@ namespace MayhemRush
 
         public void Update(GameTime gameTime, List<Platform> platforms)
         {
-            // Apply gravity
-            velocity.Y += 0.5f;
-
             // Update position based on velocity
             position += velocity;
 

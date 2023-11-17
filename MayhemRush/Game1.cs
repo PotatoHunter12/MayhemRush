@@ -1,7 +1,12 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Android.Icu.Number;
+using Android.Media.Effect;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Collections.Generic;
+using static Android.Icu.Text.Transliterator;
+using static Android.Webkit.WebStorage;
 
 namespace MayhemRush
 {
@@ -10,6 +15,8 @@ namespace MayhemRush
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
 
+        private Texture2D texture;
+        private Texture2D whiteRectangle;
         private Player player;
         private List<Platform> platforms;
 
@@ -32,6 +39,9 @@ namespace MayhemRush
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             player.LoadContent(Content);
+            texture = Content.Load<Texture2D>("platformTexture");
+            whiteRectangle = new Texture2D(GraphicsDevice, 1, 1);
+            whiteRectangle.SetData(new[] { Color.White });
             // Load platform textures here
         }
 
@@ -50,13 +60,13 @@ namespace MayhemRush
 
             // Draw game objects here
             spriteBatch.Begin();
+            spriteBatch.Draw(whiteRectangle, new Rectangle(0, 750, 2500, 200),Color.Chocolate);
             player.Draw(spriteBatch);
 
             foreach (var platform in platforms)
             {
                 platform.Draw(spriteBatch);
             }
-
             spriteBatch.End();
 
             base.Draw(gameTime);
