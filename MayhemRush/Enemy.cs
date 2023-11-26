@@ -1,4 +1,4 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
@@ -10,32 +10,36 @@ using Microsoft.Xna.Framework.Input;
 
 namespace MayhemRush
 {
-    public class Player
+    public class Enemy
     {
         private Texture2D texture;
-        public Vector2 position;
+        private Vector2 position;
         private Vector2 velocity;
+        public Player player;
 
-        public float Speed { get; set; } = 5f;
-        public bool IsJumping { get; set; } = false;
-        public float JumpSpeed { get; set; } = 10f;
+
+        public float Speed { get; set; } = 2f;
+
+        public Enemy(Player player)
+        {
+            this.player = player;
+        }
 
         public void LoadContent(ContentManager content)
         {
-            texture = content.Load<Texture2D>("playerTexture");
-            position = new Vector2(1250, 550);
+            texture = content.Load<Texture2D>("zombieTexture");
+            position = new Vector2(500, 550);
         }
 
         public void HandleInput()
         {
-            KeyboardState keyboardState = Keyboard.GetState();
 
             // Horizontal movement
-            if (keyboardState.IsKeyDown(Keys.A))
+            if (player.position.X - position.X < -50)
             {
                 velocity.X = -Speed;
             }
-            else if (keyboardState.IsKeyDown(Keys.D))
+            else if (player.position.X - position.X > 50)
             {
                 velocity.X = Speed;
             }
@@ -55,17 +59,9 @@ namespace MayhemRush
             {
                 if (IsTouchingGround(platform))
                 {
-                    IsJumping = false;
                     velocity.Y = 0;
                     position.Y = platform.position.Y - texture.Height;
                 }
-            }
-
-            // Handle jumping
-            if (Keyboard.GetState().IsKeyDown(Keys.Space) && !IsJumping)
-            {
-                velocity.Y = -JumpSpeed;
-                IsJumping = true;
             }
         }
 

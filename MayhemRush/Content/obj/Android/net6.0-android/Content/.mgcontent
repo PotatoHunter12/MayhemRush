@@ -6,8 +6,10 @@
   <SourceFiles>
     <File>C:/Users/WW/Desktop/idk/MayhemRush/MayhemRush/Content/platformTexture.png</File>
     <File>C:/Users/WW/Desktop/idk/MayhemRush/MayhemRush/Content/playerTexture.png</File>
+    <File>C:/Users/WW/Desktop/idk/MayhemRush/MayhemRush/Content/zombieTexture.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
