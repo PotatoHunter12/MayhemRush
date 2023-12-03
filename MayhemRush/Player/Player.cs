@@ -14,9 +14,12 @@ namespace MayhemRush
     {
         private Texture2D texture;
         public Vector2 position;
+        public Vector2 barPos;
         private Vector2 velocity;
+        private SpriteFont font;
 
         public float Speed { get; set; } = 5f;
+        public float Health { get; set; } = 20f;
         public bool IsJumping { get; set; } = false;
         public float JumpSpeed { get; set; } = 10f;
 
@@ -24,6 +27,8 @@ namespace MayhemRush
         {
             texture = content.Load<Texture2D>("playerTexture");
             position = new Vector2(1250, 550);
+            barPos = new Vector2(1340, 570);
+            font = content.Load<SpriteFont>("File");
         }
 
         public void HandleInput()
@@ -72,6 +77,7 @@ namespace MayhemRush
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(texture, position, Color.White);
+            spriteBatch.DrawString(font, Health+"/20", barPos, Color.Black);
         }
 
         private bool IsTouchingGround(Platform platform)

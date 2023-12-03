@@ -46,6 +46,7 @@ namespace MayhemRush
             else
             {
                 velocity.X = 0;
+                player.Health = 10;
             }
         }
 
