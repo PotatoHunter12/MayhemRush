@@ -18,7 +18,7 @@ namespace MayhemRush
         private Vector2 velocity;
         private SpriteFont font;
 
-        public float Speed { get; set; } = 5f;
+        public float Speed { get; set; } = 7f;
         public float Health { get; set; } = 20f;
         public bool IsJumping { get; set; } = false;
         public float JumpSpeed { get; set; } = 10f;
@@ -26,7 +26,7 @@ namespace MayhemRush
         public void LoadContent(ContentManager content)
         {
             texture = content.Load<Texture2D>("playerTexture");
-            position = new Vector2(1250, 550);
+            position = new Vector2(850, 550);
             barPos = new Vector2(1250, 570);
             font = content.Load<SpriteFont>("File");
         }
@@ -52,6 +52,7 @@ namespace MayhemRush
 
         public void Update(GameTime gameTime, List<Platform> platforms)
         {
+            HandleInput();
             // Update position based on velocity
             position += velocity;
 

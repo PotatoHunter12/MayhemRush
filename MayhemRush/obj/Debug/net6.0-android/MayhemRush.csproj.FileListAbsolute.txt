@@ -464,13 +464,6 @@ C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\stamp\_Co
 C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\mscorlib.dll
-C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
-C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Data.dll
-C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.dll
-C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
-C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
-C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Data.dll
@@ -478,3 +471,10 @@ C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\andro
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Data.dll
+C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.dll
+C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.dll

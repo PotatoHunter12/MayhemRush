@@ -4,10 +4,10 @@
   <Platform>Android</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/ambro/source/repos/MayhemRush/MayhemRush/Content/File.spritefont</File>
-    <File>C:/Users/ambro/source/repos/MayhemRush/MayhemRush/Content/platformTexture.png</File>
-    <File>C:/Users/ambro/source/repos/MayhemRush/MayhemRush/Content/playerTexture.png</File>
-    <File>C:/Users/ambro/source/repos/MayhemRush/MayhemRush/Content/zombieTexture.png</File>
+    <File>C:/Users/WW/Desktop/idk/MayhemRush/MayhemRush/Content/File.spritefont</File>
+    <File>C:/Users/WW/Desktop/idk/MayhemRush/MayhemRush/Content/platformTexture.png</File>
+    <File>C:/Users/WW/Desktop/idk/MayhemRush/MayhemRush/Content/playerTexture.png</File>
+    <File>C:/Users/WW/Desktop/idk/MayhemRush/MayhemRush/Content/zombieTexture.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

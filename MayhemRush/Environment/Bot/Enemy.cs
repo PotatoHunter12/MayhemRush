@@ -15,7 +15,7 @@ namespace MayhemRush
         private Texture2D texture;
         private Vector2 position;
         private Vector2 velocity;
-        private float timer = 2f;
+        private float timer = 0f;
         public float duration = 2f;
 
         public Player player;
@@ -32,7 +32,7 @@ namespace MayhemRush
         public void LoadContent(ContentManager content)
         {
             texture = content.Load<Texture2D>("zombieTexture");
-            position = new Vector2(500, 550);
+            position = new Vector2(200, 550);
         }
 
         public void HandleInput()
@@ -49,11 +49,9 @@ namespace MayhemRush
             }
             else
             {
-                velocity.X = 0;
-                timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
                 if(timer >= duration)
                 {
-                    timer -= duration;
+                    timer %= duration;
                     player.Health -= 5;
                 }
             }
@@ -61,6 +59,11 @@ namespace MayhemRush
 
         public void Update(GameTime gameTime, List<Platform> platforms)
         {
+            velocity.X = 0;
+            timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            HandleInput();
+
             // Update position based on velocity
             position += velocity;
             this.gameTime = gameTime;

@@ -50,9 +50,6 @@ namespace MayhemRush
 
         protected override void Update(GameTime gameTime)
         {
-            // Handle player input here
-            player.HandleInput();
-            enemy.HandleInput();
             player.Update(gameTime, platforms);
             enemy.Update(gameTime, platforms);
 
