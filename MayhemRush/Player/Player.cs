@@ -27,7 +27,7 @@ namespace MayhemRush
         {
             texture = content.Load<Texture2D>("playerTexture");
             position = new Vector2(1250, 550);
-            barPos = new Vector2(1340, 570);
+            barPos = new Vector2(1250, 570);
             font = content.Load<SpriteFont>("File");
         }
 
@@ -77,7 +77,7 @@ namespace MayhemRush
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(texture, position, Color.White);
-            spriteBatch.DrawString(font, Health+"/20", barPos, Color.Black);
+            spriteBatch.DrawString(font, Health+"/20", new Vector2(position.X +90,position.Y +20), Color.Black);
         }
 
         private bool IsTouchingGround(Platform platform)

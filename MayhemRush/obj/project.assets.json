@@ -166,23 +166,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WW\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ambro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WW\\Desktop\\idk\\MayhemRush\\MayhemRush\\MayhemRush.csproj",
+      "projectUniqueName": "C:\\Users\\ambro\\source\\repos\\MayhemRush\\MayhemRush\\MayhemRush.csproj",
       "projectName": "MayhemRush",
-      "projectPath": "C:\\Users\\WW\\Desktop\\idk\\MayhemRush\\MayhemRush\\MayhemRush.csproj",
-      "packagesPath": "C:\\Users\\WW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WW\\Desktop\\idk\\MayhemRush\\MayhemRush\\obj\\",
+      "projectPath": "C:\\Users\\ambro\\source\\repos\\MayhemRush\\MayhemRush\\MayhemRush.csproj",
+      "packagesPath": "C:\\Users\\ambro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ambro\\source\\repos\\MayhemRush\\MayhemRush\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\WW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ambro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -253,15 +253,15 @@
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.24, 6.0.24]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.24, 6.0.24]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[6.0.22, 6.0.22]"
+            "version": "[6.0.24, 6.0.24]"
           }
         ],
         "frameworkReferences": {
@@ -272,7 +272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

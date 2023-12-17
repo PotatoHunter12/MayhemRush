@@ -15,7 +15,11 @@ namespace MayhemRush
         private Texture2D texture;
         private Vector2 position;
         private Vector2 velocity;
+        private float timer = 2f;
+        public float duration = 2f;
+
         public Player player;
+        public GameTime gameTime;
 
 
         public float Speed { get; set; } = 2f;
@@ -46,7 +50,12 @@ namespace MayhemRush
             else
             {
                 velocity.X = 0;
-                player.Health = 10;
+                timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
+                if(timer >= duration)
+                {
+                    timer -= duration;
+                    player.Health -= 5;
+                }
             }
         }
 
@@ -54,6 +63,7 @@ namespace MayhemRush
         {
             // Update position based on velocity
             position += velocity;
+            this.gameTime = gameTime;
 
             // Check for collisions with platforms
             foreach (var platform in platforms)

@@ -44,11 +44,9 @@ C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\andro
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\Mono.Android.Export.pdb
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\Mono.Android.pdb
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\MonoGame.Framework.dll
-C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\netstandard.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.AppContext.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Buffers.dll
-C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.Immutable.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.NonGeneric.dll
@@ -64,7 +62,6 @@ C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\andro
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Core.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Data.Common.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Data.DataSetExtensions.dll
-C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Data.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Contracts.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Debug.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Diagnostics.DiagnosticSource.dll
@@ -75,7 +72,6 @@ C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\andro
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tools.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Diagnostics.TraceSource.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tracing.dll
-C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Drawing.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Drawing.Primitives.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Dynamic.Runtime.dll
@@ -125,9 +121,7 @@ C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\andro
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Numerics.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.ObjectModel.dll
-C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.DataContractSerialization.dll
-C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Xml.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Xml.Linq.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Reflection.DispatchProxy.dll
@@ -194,7 +188,6 @@ C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\andro
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Web.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Web.HttpUtility.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Windows.dll
-C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.Linq.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.Serialization.dll
@@ -478,3 +471,10 @@ C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\a
 C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\WW\Desktop\idk\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Data.dll
+C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.dll
+C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+C:\Users\ambro\source\repos\MayhemRush\MayhemRush\obj\Debug\net6.0-android\android\assets\System.Xml.dll
